@@ -4,17 +4,17 @@ using System.Text;
 
 namespace Maximum
 {
-    class MaxOfInteger
+    class MaxFloat
     {
-        public void Integer()
+        public void FloatNum()
         {
-            int num1, num2, num3;
+            double num1, num2, num3;
             Console.WriteLine("Enter first number");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            num1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter second number");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            num2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter third number");
-            num3 = Convert.ToInt32(Console.ReadLine());
+            num3 = Convert.ToDouble(Console.ReadLine());
 
             if (num1 > num2)
             {
@@ -36,8 +36,8 @@ namespace Maximum
             else
 
                 Console.Write("Largest number is \n" + num3);
-                
-            
+
+
         }
     }
 }
